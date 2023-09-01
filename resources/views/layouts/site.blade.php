@@ -55,7 +55,9 @@
 <!-- Revolution Slider 5.x SCRIPTS -->
 <script src="{{ asset('site/js/revolution-slider/js/jquery.themepunch.tools.min.js')}}"></script>
 <script src="{{ asset('site/js/revolution-slider/js/jquery.themepunch.revolution.min.js')}}"></script>
-
+<style>
+    #more {display: none;}
+</style>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -81,9 +83,9 @@
           <div class="col-md-7 pt-10 pb-10">
             <div class="widget no-border m-0">
               <ul class="list-inline">
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="#">123-456-789</a> </li>
-                <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 8:00 to 2:00 </li>
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="#">contact@yourdomain.com</a> </li>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="#"> 0753616415/0759433090/0759849517</a> </li>
+                <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 8:00 to 5:00 </li>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="#">support@frehaminvestmentgroupltd.org</a> </li>
               </ul>
             </div>
           </div>
@@ -91,15 +93,15 @@
             <div class="widget no-border m-0">
               <ul class="list-inline text-right sm-text-center">
                 <li>
-                  <a href="#" class="text-white">FAQ</a>
+                  <a href="{{ route('site.faq') }}" class="text-white">FAQ</a>
                 </li>
                 <li class="text-white">|</li>
                 <li>
-                  <a href="#" class="text-white">Help</a>
+                  <a href="{{ route('site.faq') }}" class="text-white">Help</a>
                 </li>
                 <li class="text-white">|</li>
                 <li>
-                  <a href="#" class="text-white">Support</a>
+                  <a href="{{ route('site.faq') }}" class="text-white">Support</a>
                 </li>
               </ul>
             </div>
@@ -128,10 +130,10 @@
               <img src="images/logo.png" alt="" style="width:160px;height:260px;position:absolute;">
             </a>
             <ul class="menuzord-menu">
-              <li class="active ml-5"><a href="index.html">Home</a></li>
-              <li class="active  ml-5"><a href="about.html">About Us</a></li>
-			  <li class="active  ml-5"><a href="team.html">Our Team</a></li>
-			  <li class="active  ml-5"><a href="contact.html">Contact Us</a></li>
+              <li class="{{ \Request::routeIs('site.index') ? 'active' : '' }} ml-5"><a href="{{ route('site.index') }}">Home</a></li>
+              <li class="{{ \Request::routeIs('site.about') ? 'active' : '' }}  ml-5"><a href="{{ route('site.about') }}">About Us</a></li>
+			  <li class="{{ \Request::routeIs('site.team') ? 'active' : '' }}  ml-5"><a href="{{ route('site.team') }}">Our Team</a></li>
+			  <li class="{{ \Request::routeIs('site.contact') ? 'active' : '' }}  ml-5"><a href="{{ route('site.contact') }}">Contact Us</a></li>
                 <ul class="dropdown">
                   <li><a href="features-preloader.html">Preloaders</a></li>
                   <li><a href="#">Header</a>
@@ -294,7 +296,11 @@
         <div class="col-sm-8 col-md-8">
           <div class="widget dark">
             <img class="mt-10 mb-15" alt="" src="images/logo-wide-white.png">
-            <p class="font-16 mb-10">GreenPeace is a library of Crowdfunding and Charity templates with predefined elements which helps you to build your own site. Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="font-16 mb-10">
+                FREHAM investment group is a group of people with an aim of investing in profitable businesses after the five
+                years of saving in 2028.
+                We want by the end of five years to be with maximumly 18 billion and not less than 15 billion.
+            </p>
             <a class="font-14" href="#"><i class="fa fa-angle-double-right text-theme-colored"></i> Read more</a>
             <ul class="styled-icons icon-dark mt-20">
               <li class="wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".1s" data-wow-offset="10"><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
@@ -354,7 +360,8 @@
       <div class="container pt-20 pb-20">
         <div class="row">
           <div class="col-md-6">
-            <p class="font-11 text-black-777 m-0">Copyright &copy;2015 ThemeMascot. All Rights Reserved</p>
+            <p style="text-align: center"> Copyright © 2023-<script>document.write(new Date().getFullYear())</script> FrehamInv Group Ltd All Rights Reserved built with love by k.isaac1968@gmail.com(256785558680/701361609)</p>
+
           </div>
           <div class="col-md-6 text-right">
             <div class="widget no-border m-0">
@@ -397,5 +404,22 @@
 <script type="text/javascript" src="{{ asset('site/js/revolution-slider/js/extensions/revolution.extension.parallax.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('site/js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
 <script type="text/javascript" src="{{ asset('site/js/revolution-slider/js/extensions/revolution.extension.video.min.js')}}"></script>
+<script>
+    function readmore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
 </body>
 </html>

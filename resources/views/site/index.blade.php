@@ -431,8 +431,8 @@
           <div class="col-sm-12 col-md-3 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay1">
             <div class="sm-height-auto bg-theme-colored">
               <div class="p-30">
-                <h3 class="text-uppercase text-white mt-0">Become a Volunteer</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi.</p>
+                <h3 class="text-uppercase text-white mt-0">Motto</h3>
+                <p class="text-white">Together for Financial Empowerment</p>
                 <a href="page-become-a-volunteer.html" class="btn btn-border btn-circled btn-transparent btn-xs mt-5">Join us Now</a>
               </div>
               <i class="flaticon-charity-shaking-hands-inside-a-heart bg-icon"></i>
@@ -441,8 +441,8 @@
           <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 pr-0 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay2">
             <div class="sm-height-auto bg-theme-colored-darker2">
               <div class="p-30">
-                <h3 class="text-uppercase text-white mt-0">Adopt a Child</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi.</p>
+                <h3 class="text-uppercase text-white mt-0">Mission</h3>
+                <p class="text-white">Financial harmony in the future</p>
                 <a href="#" class="btn btn-border btn-circled btn-transparent btn-xs mt-5">Contact us</a>
               </div>
               <i class="flaticon-charity-home-insurance bg-icon"></i>
@@ -451,9 +451,9 @@
           <div class="col-sm-12 col-md-3 pl-0 pr-0 pl-sm-15 pr-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay3">
             <div class="sm-height-auto bg-theme-colored-darker3">
               <div class="p-30">
-                <h3 class="text-uppercase text-white mt-0">Get Involved</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi.</p>
-                <a href="page-donate.html" class="btn btn-border btn-circled btn-transparent btn-xs mt-5">Donate Us</a>
+                <h3 class="text-uppercase text-white mt-0">Vision</h3>
+                <p class="text-white">To investment, and share profits from investments for life time, generation to generation..</p>
+                <a href="page-donate.html" class="btn btn-border btn-circled btn-transparent btn-xs mt-5">Contact Us</a>
               </div>
               <i class="flaticon-charity-make-an-online-donation bg-icon"></i>
             </div>
@@ -461,11 +461,33 @@
           <div class="col-sm-12 col-md-3 pl-0 pl-sm-15 sm-height-auto mt-sm-0 wow fadeInLeft animation-delay4">
             <div class="sm-height-auto bg-theme-colored-darker4">
               <div class="p-30">
-                <h3 class="text-white mt-0 mb-5">Call +(012) 345 6789</h3>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi.</p>
+                <h3 class="text-white mt-0 mb-5">Goal</h3>
+                <p class="text-white">Financial empowerment of each member for generations.</p>
                 <a href="page-contact1.html" class="btn btn-border btn-circled btn-transparent btn-xs mt-5">Contact Now</a>
               </div>
               <i class="fa fa-mobile bg-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="divider parallax layer-overlay overlay-deeper" data-bg-img="http://placehold.it/1920x1280">
+    <div class="container pt-70 pb-70">
+      <div class="section-content">
+        <div class="row">
+          <div class="col-md-7">
+            <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">Why Join Us</h3>
+            <p class="mb-20 text-white lead">
+                FREHAM investment group is a group of people with an aim of investing in profitable businesses after the five
+                years of saving in 2028.
+                We want by the end of five years to be with maximumly 18 billion and not less than 15 billion.
+                </p>
+            <a class="btn btn-default btn-circled btn-lg pull-left pl-30 pr-30" href="#">Join Us</a>
+          </div>
+          <div class="col-md-5">
+            <div class="fluid-video-wrapper">
+              <iframe src="//player.vimeo.com/video/22029657?title=0&amp;byline=0&amp;portrait=0" width="640" height="360"  title="Creative" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -479,28 +501,35 @@
       <div class="section-content">
         <div class="row mt-10">
           <div class="col-xs-12 col-sm-6 col-md-4 mb-sm-20 p-20 pt-0 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h3 class="text-uppercase line-bottom mt-0">Welcome To <span class="text-theme-colored"> FundPress</span></h3>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur, natus laudantium commodi. natus laudantium commodi.</p>
-            <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem laboriosam culpa exc epturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit corporis quisquam, debitis.quia vero blanditiis fugit corporis quisquam, debitis.Fugit corporis quisquam, debitis  fugit corporis quis bland itiis vero.</p>
-            <div class="row">
-              <div class="col-xs-6">
-                <ul class="mt-10">
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Family Support</li>
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Group Work</li>
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Child Adoption</li>
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Fund Raising</li>
-                </ul>
-                </div>
-                <div class="col-xs-6">
-                <ul class="mt-10">
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Tree Plantation</li>
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Childhood Care</li>
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Build Orphanage</li>
-                  <li class="mb-10"><i class="fa fa-angle-double-right text-theme-colored font-15"></i>&emsp;Volunteer Work</li>
-                </ul>
-              </div>
-            </div>
-            <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-10" href="#">View Details</a>
+            <h3 class="text-uppercase line-bottom mt-0">Welcome To <span class="text-theme-colored"> Freham Investment Group ltd</span></h3>
+            <p class="lead">
+                FREHAM investment group is a group of people with an aim of investing in profitable businesses after the five
+                years of saving in 2028.
+                We want by the end of five years to be with maximumly 18 billion and not less than 15 billion.
+            </p>
+            <p class="mb-15">
+                In this period of five (5) years that’s from 2023-2028 we are saving money according to the shares someone owns
+                and the capability of an individual. Then after the elapse of five years of saving, we then invest in the sixth year
+                and start sharing profits or dividends for the rest of our lives, and even when you die, your next of kin will continue
+                receiving those profits and enjoying the benefits from FREHAM, and if that next of kin dies, his or her next of kin
+                will continue receiving those profits. It’s generational, generation to generation when we only saved for five
+                years.
+                Each share is 50,000/= and entitled to save<span id="dots">...</span><span id="more"> 60,000/= per month that is 15,000/= per week, 2,000/= per day,
+                720,000/= per year and 3,600,000/= in five years.
+                N.B the more the shares, the more the saving. Shares are only bought once and you continue with the saving till
+                the elapse of five (5) years.
+                In FREHAM investment group, we neither lend nor borrow. Our main aim is to create financial empowerment in
+                those who have become FREHAM members. After the elapse of five years of saving, when investments have
+
+                begun, a person who saved 3,600,000/= (that’s one share saved for) will be getting not less than 16,000,000/=
+                per year.
+                The money saved has total security, its insured in Jubilee insurance, monitored by Capital Market Authority and
+                CIPA Uganda.
+                We are going to invest in profitable businesses which are essential in day to day life and sharing of profits will be
+                forever, generations to generation. SUFFER AND SAVE FOR FIVE YEARS, THEN YOU ENJOY THE REST OF YOUR
+                LIFE AND THE LIFE OF YOUR LOVED ONES.
+            </span></p>
+            <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-10" href="#" onclick="readmore()" id="myBtn">Read More</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
             <h3 class="text-uppercase line-bottom mt-0">Featured <span class="text-theme-colored"> Project</span></h3>
@@ -616,308 +645,16 @@
 
   <!-- Section: Features  -->
 
-   <!-- Section: causes -->
-  <section id="causes">
-    <div class="container pb-70">
-      <div class="section-content">
-        <div class="section-title text-center mt-0">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h2 class="mt-0 line-height-1">Our <span class="text-theme-colored"> Causes</span></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="causes col-xs-12 col-sm-6 col-md-4 mb-sm-30">
-            <div class="thumb">
-            <img class="img-fullwidth mb-sm-0" src="http://placehold.it/360x240" alt="">
-            </div>
-            <div class="progress-item mt-0">
-              <div class="progress mb-0">
-                <div class="progress-bar" data-percent="84"></div>
-              </div>
-            </div>
-            <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-              <h4><a href="#">Sponsor For Food</a></h4>
-              <ul class="list-inline clearfix font-16 pt-0 pb-10">
-                <li class="pull-left pr-0">Raised: $1890</li>
-                <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
-              </ul>
-              <p class="font-15">Lorem ipsum dolor sit amet, consect adipi sicing elit. Praesent quos sit. sicing elit Praesent quos sit.</p>
-              <div class="mt-10">
-               <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
-               <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
-              </div>
-            </div>
-          </div>
-          <div class="causes col-xs-12 col-sm-6 col-md-4 mb-sm-30">
-            <div class="thumb">
-            <img class="img-fullwidth mb-sm-0" src="http://placehold.it/360x240" alt="">
-            </div>
-            <div class="progress-item mt-0">
-              <div class="progress mb-0">
-                <div class="progress-bar" data-percent="84"></div>
-              </div>
-            </div>
-            <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-              <h4><a href="#">Sponsor For Refugee</a></h4>
-              <ul class="list-inline clearfix font-16 pt-0 pb-10">
-                <li class="pull-left pr-0">Raised: $1890</li>
-                <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
-              </ul>
-              <p class="font-15">Lorem ipsum dolor sit amet, consect adipi sicing elit. Praesent quos sit. sicing elit Praesent quos sit.</p>
-              <div class="mt-10">
-               <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
-               <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
-              </div>
-            </div>
-          </div>
-          <div class="causes col-xs-12 col-sm-6 col-md-4 mb-sm-30">
-            <div class="thumb">
-            <img class="img-fullwidth mb-sm-0" src="http://placehold.it/360x240" alt="">
-            </div>
-            <div class="progress-item mt-0">
-              <div class="progress mb-0">
-                <div class="progress-bar" data-percent="84"></div>
-              </div>
-            </div>
-            <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-              <h4><a href="#">Sponsor For Education</a></h4>
-              <ul class="list-inline clearfix font-16 pt-0 pb-10">
-                <li class="pull-left pr-0">Raised: $1890</li>
-                <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
-              </ul>
-              <p class="font-15">Lorem ipsum dolor sit amet, consect adipi sicing elit. Praesent quos sit. sicing elit Praesent quos sit.</p>
-              <div class="mt-10">
-               <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
-               <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
  <!-- Divider: Make a Donation -->
 <!-- Section: Upcoming Events -->
   <!-- Section: Running Project 1  -->
-  <section class="divider parallax layer-overlay overlay-dark-8" data-stellar-background-ratio="0.5" data-bg-img="http://placehold.it/1920x1280">
-    <div class="container pb-60 pt-70">
-      <div class="section-title text-center">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="mt-0 line-height-1 text-white">Running <span class="text-theme-colored">Projects</span></h2>
-            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem<br> voluptatem obcaecati!</p>
-          </div>
-        </div>
-      </div>
-      <div class="section-content">
-        <div class="row">
-          <div class="owl-carousel-4col horse-gallery" data-dots="true">
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Earthquake Recovery</a></h4>
-                <span class="category">Nepal / South Asia</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Relocate Refugees</a></h4>
-                <span class="category">Seria / Medilist</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Pure Drinking Water</a></h4>
-                <span class="category">Somalia/ South Africa</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Educating Poor</a></h4>
-                <span class="category">India / South Asia</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Food For Poor</a></h4>
-                <span class="category">India / South Asia</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Child Adoption</a></h4>
-                <span class="category">India / South Asia</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Shalter For Refugees</a></h4>
-                <span class="category">Seria / Medilist</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-            <div class="gallery-item">
-              <div class="thumb">
-                <img class="img-fullwidth" src="http://placehold.it/280x280" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a data-lightbox="image" href="http://placehold.it/280x280"><i class="fa fa-plus"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="horse-details">
-                <h4 class="title mb-5"><a href="#">Collecting Volunteers</a></h4>
-                <span class="category">Sydney Roosters / Sydney</span>
-                <p class="font-13 pt-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>
-                <a href="#" class="btn btn-theme-colored btn-flat mt-5 btn-sm" role="button">Donate</a>
-                <span class="pull-right ml-10 mt-12 font-14">Goal: $2500</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Section: Volunteers -->
 <!-- divider: Became a Volunteers 1 -->
-  <section class="divider parallax layer-overlay overlay-deeper" data-bg-img="http://placehold.it/1920x1280">
-    <div class="container pt-70 pb-70">
-      <div class="section-content">
-        <div class="row">
-          <div class="col-md-7">
-            <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">Become a Volunteer</h3>
-            <p class="mb-20 text-white lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, et placeat ipsam, officiis fugiat doloremque ducimus tempore aliquid nihil soluta, quia similique veritatis! Quidem, repellendus exit placeat ipsam, officiis fugiat doloremque ducimus tempore aliquid nihil soluta, quia similique veritatis.aliquid nihil soluta, quia similique veritatis soluta, quia.</p>
-            <a class="btn btn-default btn-circled btn-lg pull-left pl-30 pr-30" href="#">Join Us</a>
-          </div>
-          <div class="col-md-5">
-            <div class="fluid-video-wrapper">
-              <iframe src="//player.vimeo.com/video/22029657?title=0&amp;byline=0&amp;portrait=0" width="640" height="360"  title="Creative" allowfullscreen></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Section: Gallery -->
 @endsection

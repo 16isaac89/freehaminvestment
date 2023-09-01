@@ -5,6 +5,10 @@
 Route::redirect('/', '/index');
 Route::group(['namespace' => 'Site'], function () {
 Route::get('/index','SiteController@index')->name('site.index');
+Route::get('/about','SiteController@about')->name('site.about');
+Route::get('/contact','SiteController@contact')->name('site.contact');
+Route::get('/faq','SiteController@faq')->name('site.faq');
+Route::get('/team','SiteController@team')->name('site.team');
 
 });
 
