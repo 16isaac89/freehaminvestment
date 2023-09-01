@@ -126,8 +126,8 @@
       <div class="header-nav-wrapper navbar-scrolltofixed bg-white">
         <div class="container">
           <nav id="menuzord-right" class="menuzord default">
-            <a class="menuzord-brand pull-left flip" href="javascript:void(0)">
-              <img src="images/logo.png" alt="" style="width:160px;height:260px;position:absolute;">
+            <a class="menuzord-brand pull-left flip" href="{{ route('site.index') }}">
+              <img src="{{ asset('site/images/logo.png') }}" alt="" style="width:160px;height:260px;position:absolute;">
             </a>
             <ul class="menuzord-menu">
               <li class="{{ \Request::routeIs('site.index') ? 'active' : '' }} ml-5"><a href="{{ route('site.index') }}">Home</a></li>
