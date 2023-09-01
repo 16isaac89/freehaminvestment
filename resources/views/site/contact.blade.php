@@ -114,7 +114,7 @@
             <div class="icon-box media mb-0 pb-0"> <a class="media-left pull-left flip mr-20" href="#"> <i class="pe-7s-map-2 text-theme-colored"></i></a>
               <div class="media-body">
                 <h5 class="mt-0">Our Office Location</h5>
-                <p>#405, Lan Streen, Los Vegas, USA</p>
+                <p>Gwanda Mall, 2nd Floor Room No.IT10</p>
               </div>
             </div>
             <div class="icon-box media mb-0 pb-0 pt-0 mt-0"> <a class="media-left pull-left flip mr-15" href="#"> <i class="pe-7s-call text-theme-colored"></i></a>
@@ -144,18 +144,7 @@
     <section>
       <div class="container-fluid pt-0 pb-0">
         <div class="row">
-
-          <!-- Google Map HTML Codes -->
-          <div
-            id="map-canvas-multipointer"
-            data-mapstyle="default"
-            data-height="500"
-            data-zoom="12"
-            data-marker="images/map-marker.png">
-          </div>
-          <!-- Google Map Javascript Codes -->
-          <script src="http://maps.google.com/maps/api/js?key=AIzaSyAYWE4mHmR9GyPsHSOVZrSCOOljk8DU9B4"></script>
-          <script src="js/google-map-init-multilocation.js"></script>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.759567705628!2d32.567699574858594!3d0.3109390640344041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbdeabcf70f11%3A0xe893803a51066d31!2sGwanda%20shopping%20mall!5e0!3m2!1sen!2sug!4v1693574211401!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </div>
       </div>
