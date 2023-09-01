@@ -100,7 +100,11 @@
           </div>
           <div class="col-md-6">
             <h3 class="line-bottom mt-0">Get in touch with us</h3>
-            <p>Aliquam officia dolor rerum enim doloremque iusto eos atque tempora dignissimos similique, quae, maxime sit accusantium delectus.</p>
+            <p>
+                As FREHAM disclosure is our automate goal, improve efficiency, accuracy and speed in business process
+                (investments) ultimately leading to increased profits. And we promise full disclosure of the investments to each
+                member as per the company act.
+            </p>
             {{-- <ul class="styled-icons icon-dark icon-sm icon-circled mb-20">
               <li><a href="#" data-bg-color="#3B5998"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#" data-bg-color="#02B0E8"><i class="fa fa-twitter"></i></a></li>

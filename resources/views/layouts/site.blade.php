@@ -317,9 +317,9 @@
           <div class="widget dark">
             <h5 class="widget-title line-bottom">Quick Contact</h5>
             <ul class="list-border">
-              <li><a href="#">+(012) 345 6789</a></li>
-              <li><a href="#">hello@yourdomain.com</a></li>
-              <li><a href="#" class="lineheight-20">121 King Street, Melbourne Victoria 3000, Australia</a></li>
+              <li><a href="#">0753616415/0759433090/0759849517</a></li>
+              <li><a href="#">support@frehaminvestmentgroupltd.org/</a></li>
+              <li><a href="#" class="lineheight-20">Gwanda Mall, 2nd Floor Room No.IT10</a></li>
             </ul>
             <p class="font-16 text-white mb-5 mt-15">Subscribe to our newsletter</p>
             <form id="footer-mailchimp-subscription-form" class="newsletter-form mt-10">

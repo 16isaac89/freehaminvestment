@@ -10,7 +10,7 @@
           <!-- SLIDE 1 -->
           <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
             <!-- MAIN IMAGE -->
-            <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+            <img src="{{ asset('site/images/slider/1.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
             <!-- LAYERS -->
 
             <!-- LAYER NR. 1 -->
@@ -115,7 +115,7 @@
           <!-- SLIDE 2 -->
           <li data-index="rs-2" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 2" data-description="">
             <!-- MAIN IMAGE -->
-            <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center 40%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+            <img src="{{ asset('site/images/slider/2.jpg') }}"  alt=""  data-bgposition="center 40%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
             <!-- LAYERS -->
 
             <!-- LAYER NR. 1 -->
@@ -220,7 +220,7 @@
           <!-- SLIDE 3 -->
           <li data-index="rs-3" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 3" data-description="">
             <!-- MAIN IMAGE -->
-            <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+            <img src="{{ asset('site/images/slider/3.jpg') }}"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
             <!-- LAYERS -->
 
             <!-- LAYER NR. 1 -->
@@ -487,7 +487,7 @@
           </div>
           <div class="col-md-5">
             <div class="fluid-video-wrapper">
-              <iframe src="//player.vimeo.com/video/22029657?title=0&amp;byline=0&amp;portrait=0" width="640" height="360"  title="Creative" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k9miB8FK7yA?si=qU8MS47ITTOJwsrG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
         </div>
