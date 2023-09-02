@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Site;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Team;
+use App\Models\Faq;
 
 class SiteController extends Controller
 {
@@ -17,10 +19,12 @@ class SiteController extends Controller
         return view('site.contact');
     }
     public function faq(){
-        return view('site.faq');
+        $faqs = Faq::all();
+        return view('site.faq',compact('faqs'));
     }
     public function team(){
-        return view('site.team');
+        $teams = Team::all();
+        return view('site.team',compact('teams'));
     }
     public function signin(){
         return view('member.auth.signin');
