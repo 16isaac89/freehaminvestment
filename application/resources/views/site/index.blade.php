@@ -35,7 +35,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:700;">Donate
+              style="z-index: 7; white-space: nowrap; font-weight:700;">Freham
             </div>
 
             <!-- LAYER NR. 2 -->
@@ -60,7 +60,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:600;">For the poor children
+              style="z-index: 7; white-space: nowrap; font-weight:600;">Save with Freham
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -85,7 +85,8 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+              style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">
+              {{-- Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love. --}}
             </div>
 
             <!-- LAYER NR. 4 -->
@@ -108,7 +109,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored border-left-theme-color-2-6px pl-20 pr-20" href="#">Donate Now</a>
+              style="z-index: 5; white-space: nowrap; letter-spacing:1px;">
             </div>
           </li>
 
@@ -140,7 +141,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">For  Poor Children
+              style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">We are going to invest in
             </div>
 
             <!-- LAYER NR. 2 -->
@@ -165,7 +166,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Raise Your Helping Hand
+              style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Hospitals, Pharmacies and real estate
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -190,7 +191,8 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+              style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;color:'green';">
+              {{-- Share Profits for life time, generation to generation.<br>  Save and invest with Freham. --}}
             </div>
 
             <!-- LAYER NR. 4 -->
@@ -213,7 +215,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-transparent pl-20 pr-20" href="#">Donate Now</a>
+              style="z-index: 5; white-space: nowrap; letter-spacing:1px;">
             </div>
           </li>
 
@@ -245,7 +247,8 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:600;">Help The Poor
+              style="z-index: 7; white-space: nowrap; font-weight:600;">
+              {{-- Help The Poor --}}
             </div>
 
             <!-- LAYER NR. 2 -->
@@ -270,7 +273,8 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:600;">For Their Better Future
+              style="z-index: 7; white-space: nowrap; font-weight:600;">
+              {{-- For Their Better Future --}}
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -295,7 +299,8 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love.
+              style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">
+              {{-- Every day we bring hope to millions of children in the world's<br>  hardest places as a sign of God's unconditional love. --}}
             </div>
 
             <!-- LAYER NR. 4 -->
@@ -318,7 +323,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored btn-theme-colored border-right-theme-color-2-6px pl-20 pr-20" href="#">Donate Now</a>
+              style="z-index: 5; white-space: nowrap; letter-spacing:1px;">
             </div>
           </li>
 
@@ -532,21 +537,21 @@
             <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-10" href="#" onclick="readmore()" id="myBtn">Read More</a>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
-            <h3 class="text-uppercase line-bottom mt-0">Featured <span class="text-theme-colored"> Project</span></h3>
+            <h3 class="text-uppercase line-bottom mt-0">Investment <span class="text-theme-colored"> Areas</span></h3>
             <div class="owl-carousel-1col">
               <div class="item">
                 <div class="causes">
                   <div class="thumb">
-                  <img class="img-fullwidth mb-sm-0" src="http://placehold.it/360x240" alt="">
+                  <img class="img-fullwidth mb-sm-0" src="{{ asset('site/images/hospitals.jpeg') }}" alt="">
                   </div>
-                  <div class="progress-item mt-0">
+                  {{-- <div class="progress-item mt-0">
                     <div class="progress mb-0">
                       <div class="progress-bar" data-percent="84"></div>
                     </div>
-                  </div>
-                  <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-                    <h4><a href="#">Hospital For Poor</a></h4>
-                    <ul class="list-inline clearfix font-16 pt-0 pb-10">
+                  </div> --}}
+                   <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
+                    <h4><a href="#">Hospitals</a></h4>
+                    {{-- <ul class="list-inline clearfix font-16 pt-0 pb-10">
                       <li class="pull-left pr-0">Raised: $1890</li>
                       <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
                     </ul>
@@ -554,23 +559,23 @@
                     <div class="mt-10">
                      <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
                      <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
-                    </div>
+                    </div> --}}
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="causes">
                   <div class="thumb">
-                  <img class="img-fullwidth mb-sm-0" src="http://placehold.it/360x240" alt="">
+                  <img class="img-fullwidth mb-sm-0" src="{{ asset('site/images/importexports.jpeg') }}" alt="">
                   </div>
-                  <div class="progress-item mt-0">
+                  {{-- <div class="progress-item mt-0">
                     <div class="progress mb-0">
                       <div class="progress-bar" data-percent="84"></div>
                     </div>
-                  </div>
+                  </div> --}}
                   <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-                    <h4><a href="#">Hospital For Poor</a></h4>
-                    <ul class="list-inline clearfix font-16 pt-0 pb-10">
+                    <h4><a href="#">Exports and Imports</a></h4>
+                    {{-- <ul class="list-inline clearfix font-16 pt-0 pb-10">
                       <li class="pull-left pr-0">Raised: $1890</li>
                       <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
                     </ul>
@@ -578,23 +583,23 @@
                     <div class="mt-10">
                      <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
                      <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
-                    </div>
+                    </div> --}}
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="causes">
                   <div class="thumb">
-                  <img class="img-fullwidth mb-sm-0" src="http://placehold.it/360x240" alt="">
+                  <img class="img-fullwidth mb-sm-0" src="{{ asset('site/images/pharmacy.jpg') }}" alt="">
                   </div>
-                  <div class="progress-item mt-0">
+                  {{-- <div class="progress-item mt-0">
                     <div class="progress mb-0">
                       <div class="progress-bar" data-percent="84"></div>
                     </div>
-                  </div>
+                  </div> --}}
                   <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-                    <h4><a href="#">Hospital For Poor</a></h4>
-                    <ul class="list-inline clearfix font-16 pt-0 pb-10">
+                    <h4><a href="#">Whole Sale Pharmacies</a></h4>
+                    {{-- <ul class="list-inline clearfix font-16 pt-0 pb-10">
                       <li class="pull-left pr-0">Raised: $1890</li>
                       <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
                     </ul>
@@ -602,7 +607,31 @@
                     <div class="mt-10">
                      <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
                      <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
+                    </div> --}}
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="causes">
+                  <div class="thumb">
+                  <img class="img-fullwidth mb-sm-0" src="{{ asset('site/images/realestate.jpeg') }}" alt="">
+                  </div>
+                  {{-- <div class="progress-item mt-0">
+                    <div class="progress mb-0">
+                      <div class="progress-bar" data-percent="84"></div>
                     </div>
+                  </div> --}}
+                  <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
+                    <h4><a href="#">Real Estate</a></h4>
+                    {{-- <ul class="list-inline clearfix font-16 pt-0 pb-10">
+                      <li class="pull-left pr-0">Raised: $1890</li>
+                      <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
+                    </ul>
+                    <p class="font-15">Lorem ipsum dolor sit amet, consect adipi sicing elit. Praesent quos sit. sicing elit Praesent quos sit.</p>
+                    <div class="mt-10">
+                     <a class="btn btn-dark btn-md font-16 btn-theme-colored btn-sm pull-left mt-10" href="#">Donate</a>
+                     <div class="pull-right mt-15 font-16  text-theme-colored"><i class="fa fa-heart-o"></i> 89 Donors</div>
+                    </div> --}}
                   </div>
                 </div>
               </div>
@@ -615,8 +644,8 @@
                 <i class="flaticon-charity-responsible-energy-use text-theme-colored font-48"></i>
               </a>
               <div class="ml-80">
-                <h4 class="icon-box-title mt-15 mb-5"><strong>Become a Donar</strong></h4>
-                <p class="text-gray">Lorem ipsum dolor sit ametcon elit sectetu radipisicing. Mollitia quasi.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
+                <h4 class="icon-box-title mt-15 mb-5"><strong>Group Investments</strong></h4>
+                <p class="text-gray">During investing each member has a right to get the full details of the investment.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
               </div>
             </div>
             <div class="icon-box icon-box-effect mb-20 p-15 bg-light border-bottom-3px">
@@ -624,8 +653,8 @@
                 <i class="flaticon-charity-shelter text-theme-colored font-48"></i>
               </a>
               <div class="ml-80">
-                <h4 class="icon-box-title mt-15 mb-5"><strong>Become a Volunteer</strong></h4>
-                <p class="text-gray">Lorem ipsum dolor sit ametcon elit sectetu radipisicing. Mollitia quasi.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
+                <h4 class="icon-box-title mt-15 mb-5"><strong>Dividends</strong></h4>
+                <p class="text-gray">Right to receive profits or dividends according to the company’s performance and his or her shareholdings.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
               </div>
             </div>
             <div class="icon-box icon-box-effect p-15 bg-light border-bottom-3px">
@@ -633,8 +662,8 @@
                 <i class="flaticon-charity-hand-holding-a-heart text-theme-colored font-48"></i>
               </a>
               <div class="ml-80">
-                <h4 class="icon-box-title mt-15 mb-5"><strong>Create Fund</strong></h4>
-                <p class="text-gray">Lorem ipsum dolor sit ametcon elit sectetu radipisicing. Mollitia quasi.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
+                <h4 class="icon-box-title mt-15 mb-5"><strong>Sale Shares</strong></h4>
+                <p class="text-gray">Right to sell his/her shares after the elapse of five years that is to say, starting from March 2028 according to the market value.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
               </div>
             </div>
           </div>
