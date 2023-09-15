@@ -41,6 +41,22 @@
       </nav>
     </header>
     <div class="container">
+        @if(session('message'))
+        <div class="row mb-2">
+            <div class="col-lg-12">
+                <div class="alert alert-success" role="alert">{{ session('message') }}</div>
+            </div>
+        </div>
+    @endif
+    @if($errors->count() > 0)
+        <div class="alert alert-danger">
+            <ul class="list-unstyled">
+                @foreach($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
         @if (\Session::has('error'))
     <div class="alert alert-danger">
         <ul>
@@ -70,7 +86,7 @@
           </a>
         </div>
         <div class="text-center">
-          <p class="my-4">Copyright © 2021 UI Admin by Codervent.</p>
+            <p style="text-align: center"> Copyright © 2023-<script>document.write(new Date().getFullYear())</script> FrehamInv Group Ltd All Rights Reserved built with love by k.isaac1968@gmail.com(256785558680/701361609)</p>
         </div>
       </div>
     </footer>
@@ -78,6 +94,13 @@
   <!--end wrapper-->
 
 
+ <!-- JS Files-->
+ <script src="{{asset('member/assets/js/jquery.min.js')}}"></script>
+ <script src="{{asset('member/assets/js/bootstrap.bundle.min.js')}}"></script>
+ <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+ <!--plugins-->
+ <script src="{{asset('member/assets/js/index.js')}}"></script>
+ <!-- Main JS-->
 
   <script src="{{asset('member/assets/js/bootstrap.bundle.min.js')}}"></script>
   <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
@@ -103,7 +126,31 @@ window.onload  = ()=>{
   ccode.value = code
     }
 </script>
+<script>
+    const input2 = document.querySelector("#nokphone");
+    const ccode2 = document.querySelector("#nokccode");
+
+
+    const iti2 = window.intlTelInput(input2, {
+      utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+
+    initialCountry: "ug"
+
+    });
+
+    //const addressDropdown = document.querySelector("#address-country");
+    input2.addEventListener('countrychange', () => {
+    let x = iti2.getSelectedCountryData().dialCode;
+  ccode2.value = x
+  });
+  window.onload  = ()=>{
+    let code = iti2.getSelectedCountryData().dialCode;
+    ccode2.value = code
+      }
+  </script>
   @yield('scripts')
 </body>
+
+
 
 </html>

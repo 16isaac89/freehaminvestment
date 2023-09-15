@@ -42,7 +42,10 @@
                             {{ trans('cruds.member.fields.phone_1') }}
                         </th>
                         <th>
-                            {{ trans('cruds.member.fields.phone_2') }}
+                            Status
+                        </th>
+                        <th>
+                            Approved
                         </th>
                         <th>
                             {{ trans('cruds.member.fields.dob') }}
@@ -83,7 +86,20 @@
                                 {{ $member->phone_1 ?? '' }}
                             </td>
                             <td>
-                                {{ $member->phone_2 ?? '' }}
+                           
+                                @if($member->active === 0)
+                            <a href="{{route('admin.members.activate',$member->id)}}"><span class='badge badge-warning'>Inactive</span></a>
+                            @else
+                            <a href="{{route('admin.members.deactivate',$member->id)}}"><span class='badge badge-success'>Active</span></a>
+                            @endif
+                            </td>
+                            <td>
+                               
+                            @if($member->approved === 0)
+                            <a href="{{route('admin.members.approve',$member->id)}}"> <span class='badge badge-warning'>Pending</span></a>
+                            @else
+                            <a href="{{route('admin.members.deapprove',$member->id)}}"><span class='badge badge-success'>Approved</span></a>
+                            @endif
                             </td>
                             <td>
                                 {{ $member->dob ?? '' }}

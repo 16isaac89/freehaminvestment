@@ -15,8 +15,12 @@ Route::get('/team','SiteController@team')->name('site.team');
 
 //member auth
 Route::group(['namespace' => 'Member'], function () {
+    //login
 Route::get('/member/signin','auth\LoginController@showMemberLoginForm')->name('site.memberloginform')->middleware('memberauth');
 Route::post('/member/signin/post','auth\LoginController@memberLogin')->name('site.memberloginpost');
+//register
+Route::get('/member/signup','auth\RegisterController@showMemberRegisterForm')->name('site.memberregform')->middleware('memberauth');
+Route::post('/member/signup/post','auth\RegisterController@memberregister')->name('site.memberregpost');
 //reset password
 Route::get('/member/password/reset','auth\ForgotPasswordController@showLinkReqForm')->name('site.memberresetpwd');
 Route::post('/member/password/email','auth\ForgotPasswordController@sendResLinkEmail')->name('site.memberpwdemail');
@@ -71,6 +75,10 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::resource('audit-logs', 'AuditLogsController', ['except' => ['create', 'store', 'edit', 'update', 'destroy']]);
 
     // Member
+    Route::get('members/activate/{member}', 'MemberController@activate')->name('members.activate');
+    Route::get('members/deactivate/{member}', 'MemberController@deactivate')->name('members.deactivate');
+    Route::get('members/approve/{member}', 'MemberController@approve')->name('members.approve');
+    Route::get('members/deapprove/{member}', 'MemberController@deapprove')->name('members.deapprove');
     Route::delete('members/destroy', 'MemberController@massDestroy')->name('members.massDestroy');
     Route::post('members/media', 'MemberController@storeMedia')->name('members.storeMedia');
     Route::post('members/ckmedia', 'MemberController@storeCKEditorImages')->name('members.storeCKEditorImages');

@@ -29,4 +29,7 @@ class SiteController extends Controller
     public function signin(){
         return view('member.auth.signin');
     }
+    public function signup(){
+        return view('member.auth.signup');
+    }
 }

@@ -50,6 +50,7 @@ class Member extends Authenticatable implements HasMedia
         'gender',
         'idno',
         'email',
+        'noknumber',
         'password',
         'created_at',
         'updated_at',

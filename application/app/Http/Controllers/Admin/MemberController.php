@@ -130,4 +130,28 @@ class MemberController extends Controller
         $savingprice = Setting::where('code','SVPRICE')->first()->value;
         return response()->json(['shares' => $shares,'savingprice'=>$savingprice], 200);
     }
+    public function activate(Member $member){
+        //dd($member->active);
+        $member->active = 1;
+        $member->save();
+        return redirect()->back()->with(['success'=>"Successfully activated the member's account."]);
+    }
+    public function deactivate(Member $member){
+       // dd($member);
+       $member->active = 0;
+       $member->save();
+        return redirect()->back()->with(['success'=>"Successfully de-activated the member's account."]);
+    }
+    public function approve(Member $member){
+        //dd($member);
+        $member->approved = 1;
+        $member->save();
+        return redirect()->back()->with(['success'=>"Successfully approved the member's account."]);
+    }
+    public function deapprove(Member $member){
+       // dd($member);
+       $member->approved = 0;
+       $member->save();
+        return redirect()->back()->with(['success'=>"Successfully de-approved the member's account."]);
+    }
 }
