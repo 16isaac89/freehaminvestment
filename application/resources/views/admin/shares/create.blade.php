@@ -22,7 +22,7 @@
                 @endif
                 <span class="help-block">{{ trans('cruds.share.fields.member_helper') }}</span>
             </div>
-            <input name="shareprice" id="shareprice" name="price" type="hidden">
+            <input  id="shareprice" name="price" type="hidden">
             <div class="form-group">
                 <label class="required" for="quantity">{{ trans('cruds.share.fields.quantity') }}</label>
                 <input class="form-control {{ $errors->has('quantity') ? 'is-invalid' : '' }}" type="number" min="1" name="quantity" id="quantity" value="{{ old('quantity', '') }}" step="1" required>

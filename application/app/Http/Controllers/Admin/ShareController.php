@@ -40,6 +40,7 @@ class ShareController extends Controller
 
     public function store(StoreShareRequest $request)
     {
+        //dd($request->all());
         DB::beginTransaction();
 
             try {
@@ -51,7 +52,7 @@ class ShareController extends Controller
                 // all good
             } catch (\Exception $e) {
                 DB::rollback();
-                return Redirect::back()->withErrors(['msg' => 'The following error occured please try again '.$e]);
+                return \Redirect::back()->withErrors(['msg' => 'The following error occured please try again '.$e]);
                 // something went wrong
             }
 
