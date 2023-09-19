@@ -11,10 +11,10 @@
             @csrf
             <div class="form-group col-6">
                 <label class="required" for="phone_1">Next Of Kin</label>
-            <select class="form-control" id="gender"  name="gender" aria-label="Default select example">
-                <option selected>Select nexk of kin</option>
+            <select class="form-control select2" id="gender"  name="gender" aria-label="Default select example">
+                <option selected>Select next of kin</option>
                 @foreach ($users as $user)
-                <option value="{{ $user->id }}">{{ $user->first_name }} {{ $user->second_name }} {{ $user->phone_1 }}</option>
+                <option data-member="{{ $user }}" value="{{ $user->id }}">{{ $user->first_name }} {{ $user->second_name }} {{ $user->phone_1 }}</option>
                 @endforeach
 
               </select>
@@ -114,6 +114,49 @@
                 @endif
                 <span class="help-block">{{ trans('cruds.member.fields.profile_photo_helper') }}</span>
             </div>
+
+
+            <p>Next Of Kin Details</p>
+            <div class="row">
+                <div class="form-group col-6">
+                    <label class="required" for="phone_1">Next Of Kin Gender</label>
+                <select class="form-control" id="nok_gender"  name="nok_gender" aria-label="Default select example">
+                    <option selected>Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+                <div class="form-group  col-6">
+                    <label for="dob">Name</label>
+                    <input class="form-control date {{ $errors->has('nok_name') ? 'is-invalid' : '' }}" type="text" name="nok_name" id="nok_name" value="{{ old('nok_name') }}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-6">
+                    <label for="phone_2">Number</label>
+                    <input class="form-control {{ $errors->has('phone_2') ? 'is-invalid' : '' }}" type="text" name="noknumber" id="noknumber" value="{{ old('noknumber', '') }}">
+                </div>
+                <div class="form-group  col-6">
+                    <label for="dob">Relationship</label>
+                    <input class="form-control {{ $errors->has('nok_relationship') ? 'is-invalid' : '' }}" type="text" name="nok_relationship" id="nok_relationship" value="{{ old('nok_relationship') }}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-6">
+                    <label for="phone_2">District</label>
+                    <input class="form-control {{ $errors->has('nok_district') ? 'is-invalid' : '' }}" type="text" name="nok_district" id="nok_district" value="{{ old('nok_district', '') }}">
+
+                </div>
+                <div class="form-group  col-6">
+                    <label for="dob">Village</label>
+                    <input class="form-control date {{ $errors->has('nok_village') ? 'is-invalid' : '' }}" type="text" name="nok_village" id="nok_village" value="{{ old('nok_village') }}">
+                </div>
+            </div>
+
+
+
+
+
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">
                     {{ trans('global.save') }}
@@ -181,6 +224,16 @@
         return _results
     }
 }
+
+$('#gender').change(function(){
+    let member = $('#gender').find(':selected').data('member')
+    document.getElementById('nok_name').value = member.first_name + member.second_name
+    document.getElementById('nok_gender').value = member.gender
+    document.getElementById('nok_village').value =member.village
+    document.getElementById('nok_district').value =member.district
+    document.getElementById('noknumber').value =member.phone_1
+})
+
 
 </script>
 @endsection

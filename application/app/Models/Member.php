@@ -52,6 +52,14 @@ class Member extends Authenticatable implements HasMedia
         'email',
         'noknumber',
         'password',
+//nok
+        'nok_name',
+        'nok_gender',
+        'nok_village',
+        'nok_district',
+        'noknumber',
+        'nok_relationship',
+        //
         'created_at',
         'updated_at',
         'deleted_at',

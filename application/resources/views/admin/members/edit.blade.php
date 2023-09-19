@@ -61,7 +61,7 @@
             <div class="form-group">
                 <label for="dob">Email</label>
                 <input class="form-control {{ $errors->has('email') ? 'is-invalid' : '' }}" type="text" name="email" id="email" value="{{ old('email', $member->email) }}">
-                
+
             </div>
             <div class="form-group">
                 <label for="profile_photo">{{ trans('cruds.member.fields.profile_photo') }}</label>
@@ -71,6 +71,44 @@
                     <span class="text-danger">{{ $errors->first('profile_photo') }}</span>
                 @endif
                 <span class="help-block">{{ trans('cruds.member.fields.profile_photo_helper') }}</span>
+            </div>
+
+
+            <p>Next Of Kin Details</p>
+            <div class="row">
+                <div class="form-group col-6">
+                    <label class="required" for="phone_1">Next Of Kin Gender</label>
+                <select class="form-control" id="nok_gender"  name="nok_gender" aria-label="Default select example">
+                    <option selected>Select gender</option>
+                    <option value="male" {{ $member->gender === 'male' ? 'selected' : '' }}>Male</option>
+                    <option value="female" {{ $member->gender === 'female' ? 'selected' : '' }}>Female</option>
+                  </select>
+                </div>
+                <div class="form-group  col-6">
+                    <label for="dob">Name</label>
+                    <input class="form-control date {{ $errors->has('nok_name') ? 'is-invalid' : '' }}" type="text" value="{{  }}" name="nok_name" id="nok_name" value="{{ old('nok_name', $member->nok_name) }}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-6">
+                    <label for="phone_2">Number</label>
+                    <input class="form-control {{ $errors->has('phone_2') ? 'is-invalid' : '' }}" type="text" name="noknumber" id="noknumber" value="{{ old('noknumber', $member->noknumber) }}">
+                </div>
+                <div class="form-group  col-6">
+                    <label for="dob">Relationship</label>
+                    <input class="form-control {{ $errors->has('nok_relationship') ? 'is-invalid' : '' }}" type="text" name="nok_relationship" id="nok_relationship" value="{{ old('email', $member->nok_relationship) }}">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-6">
+                    <label for="phone_2">District</label>
+                    <input class="form-control {{ $errors->has('nok_district') ? 'is-invalid' : '' }}" type="text" name="nok_district" id="nok_district" value="{{ old('nok_district', '') }}" value="{{ old('nok_district', $member->nok_district) }}">
+
+                </div>
+                <div class="form-group  col-6">
+                    <label for="dob">Village</label>
+                    <input class="form-control date {{ $errors->has('nok_village') ? 'is-invalid' : '' }}" type="text" name="nok_village" id="nok_village" value="{{ old('nok_village', $member->nok_village) }}">
+                </div>
             </div>
             <div class="form-group">
                 <button class="btn btn-danger" type="submit">
