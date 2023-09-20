@@ -116,7 +116,7 @@
             </div>
 
 
-            <p>Next Of Kin Details</p>
+            <p><span class="badge badge-primary"><b>Next Of Kin Details</b></span></p>
             <div class="row">
                 <div class="form-group col-6">
                     <label class="required" for="phone_1">Next Of Kin Gender</label>
@@ -128,7 +128,7 @@
                 </div>
                 <div class="form-group  col-6">
                     <label for="dob">Name</label>
-                    <input class="form-control date {{ $errors->has('nok_name') ? 'is-invalid' : '' }}" type="text" name="nok_name" id="nok_name" value="{{ old('nok_name') }}">
+                    <input class="form-control {{ $errors->has('nok_name') ? 'is-invalid' : '' }}" type="text" name="nok_name" id="nok_name" value="{{ old('nok_name') }}">
                 </div>
             </div>
             <div class="row">
@@ -149,7 +149,7 @@
                 </div>
                 <div class="form-group  col-6">
                     <label for="dob">Village</label>
-                    <input class="form-control date {{ $errors->has('nok_village') ? 'is-invalid' : '' }}" type="text" name="nok_village" id="nok_village" value="{{ old('nok_village') }}">
+                    <input class="form-control {{ $errors->has('nok_village') ? 'is-invalid' : '' }}" type="text" name="nok_village" id="nok_village" value="{{ old('nok_village') }}">
                 </div>
             </div>
 
