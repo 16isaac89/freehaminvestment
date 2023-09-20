@@ -39,7 +39,10 @@ class MemberController extends Controller
     public function store(StoreMemberRequest $request)
     {
         $latest = Member::latest()->first();
-        $number = $latest->id+1;
+        $number = 1;
+		if($latest){
+		$number = $latest->id+1;
+		}
         $member = Member::create($request->all()+['freham' => 'FICL_'.str_pad($number, 2, '0', STR_PAD_LEFT)]);
 
         if ($request->input('profile_photo', false)) {
