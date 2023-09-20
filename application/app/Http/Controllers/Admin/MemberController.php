@@ -43,7 +43,7 @@ class MemberController extends Controller
 		if($latest){
 		$number = $latest->id+1;
 		}
-        $member = Member::create($request->all()+['freham' => 'FICL_'.str_pad($number, 2, '0', STR_PAD_LEFT)]);
+        $member = Member::create($request->all()+['freham' => 'FICL_'.str_pad($number, 2, '0', STR_PAD_LEFT),'password'=>bcrypt('123456789')]);
 
         if ($request->input('profile_photo', false)) {
             $member->addMedia(storage_path('tmp/uploads/' . basename($request->input('profile_photo'))))->toMediaCollection('profile_photo');
