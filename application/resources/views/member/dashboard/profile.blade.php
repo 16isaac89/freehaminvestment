@@ -46,24 +46,24 @@
             <hr>
             <div class="row g-3">
               <div class="col-6">
-                 <label class="form-label">Username</label>
-                 <input type="text" class="form-control" value="@jhon">
+                 <label class="form-label">Phone Number</label>
+                 <input type="text" class="form-control" name="phone_1" value="{{ \Auth::guard('member')->user()->phone_1 }}">
               </div>
               <div class="col-6">
                <label class="form-label">Email address</label>
-               <input type="text" class="form-control" value="xyz@example.com">
+               <input type="text" class="form-control" name="email" value="{{ \Auth::guard('member')->user()->email }}">
              </div>
                <div class="col-6">
                  <label class="form-label">First Name</label>
-                 <input type="text" class="form-control" value="jhon">
+                 <input type="text" class="form-control" name="first_name" value="{{ \Auth::guard('member')->user()->first_name }}">
              </div>
              <div class="col-6">
                  <label class="form-label">Last Name</label>
-                 <input type="text" class="form-control" value="">
+                 <input type="text" class="form-control" name="second_name" value="{{ \Auth::guard('member')->user()->second_name }}">
              </div>
            </div>
 
-           <h5 class="mb-0 mt-4">Contact Information</h5>
+           {{-- <h5 class="mb-0 mt-4">Contact Information</h5>
            <hr>
            <div class="row g-3">
             <div class="col-12">
@@ -90,7 +90,7 @@
               <label class="form-label">About Me</label>
               <textarea class="form-control" rows="4" cols="4" placeholder="Describe yourself..."></textarea>
              </div>
-            </div>
+            </div> --}}
             <div class="text-start mt-3">
               <button type="button" class="btn btn-primary px-4">Save Changes</button>
             </div>

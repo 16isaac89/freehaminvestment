@@ -19,9 +19,9 @@
               </div>
               <div class="d-flex align-items-center mt-3">
                 <div>
-                  <h4 class="mb-0">$92,854</h4>
+                  <h4 class="mb-0">{{ $shares->sum('quantity') }}Shares UGX{{ $shares->sum('amount') }}</h4>
                 </div>
-                <div class="ms-auto">+6.32%</div>
+                {{-- <div class="ms-auto">+6.32%</div> --}}
               </div>
             </div>
           </div>
@@ -41,9 +41,9 @@
               </div>
               <div class="d-flex align-items-center mt-3">
                 <div>
-                  <h4 class="mb-0">48.76%</h4>
+                  <h4 class="mb-0">UGX{{ $latest->amount }} ({{ $latest->created_at }})</h4>
                 </div>
-                <div class="ms-auto">+8.52%</div>
+                {{-- <div class="ms-auto">+8.52%</div> --}}
               </div>
             </div>
           </div>
@@ -62,33 +62,32 @@
                       <table id="example2" class="table table-striped table-bordered">
                           <thead>
                               <tr>
-                                  <th>Name</th>
-                                  <th>Position</th>
-                                  <th>Office</th>
-                                  <th>Age</th>
-                                  <th>Start date</th>
-                                  <th>Salary</th>
+                                <th>Posted</th>
+                                  <th>Quantity</th>
+                                  <th>Amount</th>
+                                  <th>Price</th>
+
                               </tr>
                           </thead>
                           <tbody>
-                              <tr>
-                                  <td>Tiger Nixon</td>
-                                  <td>System Architect</td>
-                                  <td>Edinburgh</td>
-                                  <td>61</td>
-                                  <td>2011/04/25</td>
-                                  <td>$320,800</td>
-                              </tr>
+
+                                @foreach ($shares as $share)
+                                <tr>
+                                <td>{{ $share->created_at }}</td>
+                                <td>{{ $share->quantity }}</td>
+                                <td>{{ $share->amount }}</td>
+                                <td>{{ $share->price }}</td>
+                            </tr>
+                                @endforeach
+
+
 
                           </tbody>
                           <tfoot>
                               <tr>
-                                  <th>Name</th>
-                                  <th>Position</th>
-                                  <th>Office</th>
-                                  <th>Age</th>
-                                  <th>Start date</th>
-                                  <th>Salary</th>
+                                <th>Quantity</th>
+                                <th>Amount</th>
+                                <th>Price</th>
                               </tr>
                           </tfoot>
                       </table>
