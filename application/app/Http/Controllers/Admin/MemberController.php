@@ -38,12 +38,12 @@ class MemberController extends Controller
 
     public function store(StoreMemberRequest $request)
     {
-        $latest = Member::latest()->first();
-        $number = 1;
-		if($latest){
-		$number = $latest->id+1;
-		}
-        $member = Member::create($request->all()+['freham' => 'FICL_'.str_pad($number, 2, '0', STR_PAD_LEFT),'password'=>bcrypt('123456789')]);
+        // $latest = Member::latest()->first();
+        // $number = 1;
+		// if($latest){
+		// $number = $latest->id+1;
+		// }
+        $member = Member::create($request->all()+['freham' => 'FIGCL_'.$request->freham,'password'=>bcrypt('123456789')]);
 
         if ($request->input('profile_photo', false)) {
             $member->addMedia(storage_path('tmp/uploads/' . basename($request->input('profile_photo'))))->toMediaCollection('profile_photo');

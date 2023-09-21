@@ -63,37 +63,28 @@
              </div>
            </div>
 
-           {{-- <h5 class="mb-0 mt-4">Contact Information</h5>
+           <h5 class="mb-0 mt-4">Change Password</h5>
            <hr>
+           <form method="post" action="{{ route('member.changepwd') }}">
+            @csrf
            <div class="row g-3">
             <div class="col-12">
-              <label class="form-label">Address</label>
-              <input type="text" class="form-control" value="47-A, city name, United States">
+              <label class="form-label">Old Password</label>
+              <input type="text" class="form-control" name="oldpwd" value="123456789">
              </div>
              <div class="col-6">
-                <label class="form-label">City</label>
-                <input type="text" class="form-control" value="@jhon">
+                <label class="form-label">New Password</label>
+                <input type="text" class="form-control" name="newpwd">
              </div>
              <div class="col-6">
-              <label class="form-label">Country</label>
-              <input type="text" class="form-control" value="xyz@example.com">
+              <label class="form-label">Confirm Password</label>
+              <input type="text" class="form-control" name="cpwd">
             </div>
-              <div class="col-6">
-                <label class="form-label">Pin Code</label>
-                <input type="text" class="form-control" value="jhon">
             </div>
-            <div class="col-6">
-                <label class="form-label">Last Name</label>
-                <input type="text" class="form-control" value="Deo">
-            </div>
-            <div class="col-12">
-              <label class="form-label">About Me</label>
-              <textarea class="form-control" rows="4" cols="4" placeholder="Describe yourself..."></textarea>
-             </div>
-            </div> --}}
             <div class="text-start mt-3">
-              <button type="button" class="btn btn-primary px-4">Save Changes</button>
+              <button type="submit" class="btn btn-primary px-4">Save Password</button>
             </div>
+        </form>
           </div>
          </form>
         </div>

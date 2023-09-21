@@ -49,6 +49,11 @@
 
     <!-- start page content wrapper-->
     <div class="page-content-wrapper">
+        @if(session()->has('success'))
+    <div class="alert alert-success">
+        {{ session()->get('message') }}
+    </div>
+@endif
       <!-- start page content-->
      @yield('content')
       <!-- end page content-->

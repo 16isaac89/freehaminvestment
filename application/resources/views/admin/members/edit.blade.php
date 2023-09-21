@@ -11,6 +11,11 @@
             @method('PUT')
             @csrf
             <div class="form-group">
+                <label class="required" for="second_name">ID</label>
+                <input class="form-control {{ $errors->has('freham') ? 'is-invalid' : '' }}" type="text" name="freham" id="id" value="{{ old('id', $member->freham) }}" required>
+
+            </div>
+            <div class="form-group">
                 <label class="required" for="first_name">{{ trans('cruds.member.fields.first_name') }}</label>
                 <input class="form-control {{ $errors->has('first_name') ? 'is-invalid' : '' }}" type="text" name="first_name" id="first_name" value="{{ old('first_name', $member->first_name) }}" required>
                 @if($errors->has('first_name'))
@@ -86,7 +91,7 @@
                 </div>
                 <div class="form-group  col-6">
                     <label for="dob">Name</label>
-                    <input class="form-control date {{ $errors->has('nok_name') ? 'is-invalid' : '' }}" type="text" value="{{  }}" name="nok_name" id="nok_name" value="{{ old('nok_name', $member->nok_name) }}">
+                    <input class="form-control date {{ $errors->has('nok_name') ? 'is-invalid' : '' }}" type="text" value="{{ $member->nok_name }}" name="nok_name" id="nok_name" value="{{ old('nok_name', $member->nok_name) }}">
                 </div>
             </div>
             <div class="row">

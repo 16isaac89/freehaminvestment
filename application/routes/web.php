@@ -40,6 +40,7 @@ Route::group(['namespace' => 'Member'], function () {
  Route::resource('membersavings','SavingsController');
  //profile
  Route::get('/member/profile','auth\ProfileController@profile')->name('member.profile');
+ Route::post('/member/change/pwd','auth\ProfileController@changepwd')->name('member.changepwd');
     });
 
 

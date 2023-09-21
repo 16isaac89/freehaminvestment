@@ -10,4 +10,7 @@ class ProfileController extends Controller
     public function profile(){
         return view('member.dashboard.profile');
     }
+    public function changepwd(){
+        return redirect()->back()->with('success', 'Your password has been changed successfully!');
+    }
 }
