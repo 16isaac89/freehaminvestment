@@ -75,14 +75,19 @@
                     document.getElementById('quantity').value = maxshares
                     document.getElementById('shareprice').value = shareprice
                     document.getElementById('maximumshares').innerHTML = maxshares
+                    $('.loader').modal('hide');
                 },
                 error: function(xhr) {
+                    console.log(xhr)
+                    $('.loader').modal('hide');
                     //Do Something to handle error
                 }});
+                $('.loader').modal('hide');
 });
 
 $("#quantity").change(function(){   // 1st
     let value = this.value
+    alert(value)
     let shareprice = document.getElementById('shareprice').value
     document.getElementById('amount').value = value*shareprice
 
