@@ -13,8 +13,8 @@
             <div class="form-group">
                 <label for="member_id">{{ trans('cruds.share.fields.member') }}</label>
                 <select class="form-control select2 {{ $errors->has('member') ? 'is-invalid' : '' }}" name="member_id" id="member">
-                    @foreach($members as $id => $entry)
-                        <option value="{{ $id }}" {{ old('member_id') == $id ? 'selected' : '' }}>{{ $entry }}</option>
+                    @foreach($members as $entry)
+                        <option value="{{ $entry->id }}" {{ old('member_id') == $entry->id ? 'selected' : '' }}>{{ $entry->first_name }} {{ $entry->second_name }} {{ $entry->phone_1 }}</option>
                     @endforeach
                 </select>
                 @if($errors->has('member'))

@@ -33,7 +33,8 @@ class ShareController extends Controller
     {
         abort_if(Gate::denies('share_create'), Response::HTTP_FORBIDDEN, '403 Forbidden');
 
-        $members = Member::pluck('first_name', 'id')->prepend(trans('global.pleaseSelect'), '');
+        $members = Member::all();
+
 
         return view('admin.shares.create', compact('members'));
     }
