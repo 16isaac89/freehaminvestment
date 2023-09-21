@@ -11,7 +11,7 @@
             @csrf
             <div class="form-group">
                 <label class="required" for="second_name">ID</label>
-                <input class="form-control {{ $errors->has('freham') ? 'is-invalid' : '' }}" type="text" name="freham" id="id" value="{{ old('id', $member->freham) }}" required>
+                <input class="form-control {{ $errors->has('frehamid') ? 'is-invalid' : '' }}" type="text" name="frehamid" id="frehamid" >
             </div>
             <div class="form-group col-6">
                 <label class="required" for="phone_1">Next Of Kin</label>
