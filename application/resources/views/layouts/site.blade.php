@@ -83,7 +83,7 @@
           <div class="col-md-7 pt-10 pb-10">
             <div class="widget no-border m-0">
               <ul class="list-inline">
-                <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="#"> 0753616415/0759433090/0759849517</a> </li>
+                <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white"></i> <a class="text-white" href="#"> 0753616415/0759433090/0759849517/0703091836/0702522831</a> </li>
                 <li class="text-white m-0 pl-10 pr-10"> <i class="fa fa-clock-o text-white"></i> Mon-Fri 8:00 to 5:00 </li>
                 <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white"></i> <a class="text-white" href="#">support@frehaminvestmentgroupltd.org</a> </li>
               </ul>
