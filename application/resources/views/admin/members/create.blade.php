@@ -9,6 +9,10 @@
     <div class="card-body">
         <form method="POST" action="{{ route("admin.members.store") }}" enctype="multipart/form-data">
             @csrf
+            <div class="form-group">
+                <label class="required" for="second_name">ID</label>
+                <input class="form-control {{ $errors->has('freham') ? 'is-invalid' : '' }}" type="text" name="freham" id="id" value="{{ old('id', $member->freham) }}" required>
+            </div>
             <div class="form-group col-6">
                 <label class="required" for="phone_1">Next Of Kin</label>
             <select class="form-control select2" id="gender"  name="gender" aria-label="Default select example">
