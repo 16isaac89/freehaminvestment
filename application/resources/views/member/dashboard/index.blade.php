@@ -12,8 +12,8 @@
                     <ion-icon name="card-outline"></ion-icon>
                   </div>
                   <div class="">
-                    <h4 class="mb-0">$95,286.50</h4>
-                    <p class="mb-0 text-secondary">Total Revenue</p>
+                    <h4 class="mb-0">UGX{{$shares}}</h4>
+                    <p class="mb-0 text-secondary">Total Shares(UGX)</p>
                   </div>
                 </div>
                 <div class="vr d-none d-lg-block"></div>
@@ -22,8 +22,8 @@
                     <ion-icon name="diamond-outline"></ion-icon>
                   </div>
                   <div class="">
-                    <h4 class="mb-0">$58,820</h4>
-                    <p class="mb-0 text-secondary">Total Profit</p>
+                    <h4 class="mb-0">UGX{{$savings}}</h4>
+                    <p class="mb-0 text-secondary">Total Savings</p>
                   </div>
                 </div>
                 <div class="vr d-none d-lg-block"></div>
@@ -32,8 +32,8 @@
                     <ion-icon name="people-circle-outline"></ion-icon>
                   </div>
                   <div class="">
-                    <h4 class="mb-0">$26,498</h4>
-                    <p class="mb-0 text-secondary">Total Customer</p>
+                    <h4 class="mb-0"> {{ $sharecount }}</h4>
+                    <p class="mb-0 text-secondary">Total Shares</p>
                   </div>
                 </div>
               </div>

@@ -10,7 +10,7 @@
           <!-- SLIDE 1 -->
           <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
             <!-- MAIN IMAGE -->
-            <img src="{{ asset('site/images/slider/1.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+            <img src="{{ asset('site/images/slider1.jpeg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
             <!-- LAYERS -->
 
             <!-- LAYER NR. 1 -->
@@ -166,7 +166,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Hospitals, Pharmacies and real estate
+              style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Hospitals, Pharmaceutical, Courier and real estate
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -598,7 +598,7 @@
                     </div>
                   </div> --}}
                   <div class="causes-details bg-white clearfix border-2px p-15 pt-10">
-                    <h4><a href="#">Whole Sale Pharmacies</a></h4>
+                    <h4><a href="#">Whole Sale Pharmaceuticals</a></h4>
                     {{-- <ul class="list-inline clearfix font-16 pt-0 pb-10">
                       <li class="pull-left pr-0">Raised: $1890</li>
                       <li class="text-theme-colored pull-right pr-0">Goal: $2500</li>
@@ -673,7 +673,16 @@
   </section>
 
   <!-- Section: Features  -->
+  <section id="about">
+    <div class="container mb-0 pt-0 mt-60">
+      <div class="section-content">
+        <div class="row col-12">
+<img src="{{ asset('/site/images/desc.jpg') }}" style="width: 100%; height:1300px;">
 
+        </div>
+      </div>
+    </div>
+  </section>
 
 
  <!-- Divider: Make a Donation -->

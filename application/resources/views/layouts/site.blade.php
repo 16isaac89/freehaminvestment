@@ -70,7 +70,7 @@
   <!-- preloader -->
   <div id="preloader">
     <div id="spinner">
-      <img alt="" src="images/preloaders/5.gif">
+      <img alt="" src="{{ asset('site/images/preloaders/7.gif') }}">
     </div>
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div>
@@ -127,7 +127,7 @@
         <div class="container">
           <nav id="menuzord-right" class="menuzord default">
             <a class="menuzord-brand pull-left flip" href="{{ route('site.index') }}">
-              <img src="{{ asset('site/images/logo.png') }}" alt="" style="width:160px;height:260px;position:absolute;">
+              <img src="{{ asset('site/images/logo.png') }}" alt="" style="width:90px;height:260px;position:absolute;margin-bottom:80px;">
             </a>
             <ul class="menuzord-menu">
               <li class="{{ \Request::routeIs('site.index') ? 'active' : '' }} ml-5"><a href="{{ route('site.index') }}">Home</a></li>

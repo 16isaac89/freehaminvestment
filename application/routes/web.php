@@ -41,6 +41,8 @@ Route::group(['namespace' => 'Member'], function () {
  //profile
  Route::get('/member/profile','auth\ProfileController@profile')->name('member.profile');
  Route::post('/member/change/pwd','auth\ProfileController@changepwd')->name('member.changepwd');
+ Route::post('/member/change/profile','auth\ProfileController@changeprofile')->name('member.changeprofile');
+ Route::get('/memberprofile/media', 'auth\ProfileController@storeMedia')->name('member.storeMedia');
     });
 
 

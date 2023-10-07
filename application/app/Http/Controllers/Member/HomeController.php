@@ -10,7 +10,10 @@ class HomeController extends Controller
 {
 
     public function index(){
-return view('member.dashboard.index');
+        $savings = \Auth::guard('member')->user()->savings()->sum('amount_saved');
+        $shares = \Auth::guard('member')->user()->shares()->sum('amount');
+        $sharecount = \Auth::guard('member')->user()->shares()->sum('quantity');
+return view('member.dashboard.index',compact('savings','shares','sharecount'));
     }
 
     function logout(Request $request)

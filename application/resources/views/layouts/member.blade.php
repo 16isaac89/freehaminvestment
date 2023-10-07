@@ -27,6 +27,8 @@
   <link href="{{asset('member/assets/css/semi-dark.css')}}" rel="stylesheet" />
   <link href="{{asset('member/assets/css/header-colors.css')}}" rel="stylesheet" />
 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.css" rel="stylesheet" />
+
   <title>Freham | We listen, We Care, We Partner</title>
 </head>
 
@@ -53,6 +55,16 @@
     <div class="alert alert-success">
         {{ session()->get('message') }}
     </div>
+@endif
+@if(session()->has('success'))
+<div class="alert alert-success">
+    {{ session()->get('success') }}
+</div>
+@endif
+@if(session()->has('error'))
+<div class="alert alert-danger">
+    {{ session()->get('error') }}
+</div>
 @endif
       <!-- start page content-->
      @yield('content')
@@ -104,6 +116,10 @@
   <script src="{{asset('member/assets/plugins/datatable/js/jquery.dataTables.min.js')}}"></script>
   <script src="{{asset('member/assets/plugins/datatable/js/dataTables.bootstrap5.min.js')}}"></script>
   <script src="{{asset('member/assets/js/table-datatable.js')}}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.5.1/min/dropzone.min.js"></script>
+  <script>
+     Dropzone.autoDiscover = false;
+  </script>
 
 
 </body>
