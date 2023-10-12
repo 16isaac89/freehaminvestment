@@ -10,7 +10,8 @@
           <!-- SLIDE 1 -->
           <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="http://placehold.it/1920x1280" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
             <!-- MAIN IMAGE -->
-            <img src="{{ asset('site/images/slider1.jpeg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+            <img src="{{ asset('site/images/slider12.jpg') }}"  alt=""  data-bgposition="center center" data-bgfit="cover"
+             data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
             <!-- LAYERS -->
 
             <!-- LAYER NR. 1 -->
@@ -39,7 +40,8 @@
             </div>
 
             <!-- LAYER NR. 2 -->
-            <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20"
+            <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent
+            border-left-theme-color-2-6px pl-20 pr-20"
               id="rs-1-layer-2"
 
               data-x="['left']"
@@ -60,7 +62,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:600;">Save with Freham
+              style="z-index: 7; white-space: nowrap; font-weight:600;">Save with Freham, Invest with Freham,<br> Share profits for lifetime generation to generation
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -166,7 +168,8 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Hospitals, Pharmaceutical, Courier and real estate
+              style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">Hospitals, Pharmaceutical,<br>
+               Courier, real estate, Imports and exports
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -484,6 +487,7 @@
           <div class="col-md-7">
             <h3 class="text-white text-uppercase font-30 font-weight-600 mt-0 mb-20">Why Join Us</h3>
             <p class="mb-20 text-white lead">
+                We had a dream to build something we could be proud of, decades later, we are part of something we can all be proud of.
                 FREHAM investment group is a group of people with an aim of investing in profitable businesses after the five
                 years of saving in 2028.
                 We want by the end of five years to be with maximumly 18 billion and not less than 15 billion.
@@ -542,7 +546,7 @@
               <div class="item">
                 <div class="causes">
                   <div class="thumb">
-                  <img class="img-fullwidth mb-sm-0" src="{{ asset('site/images/hospitals.jpeg') }}" alt="">
+                  <img class="img-fullwidth mb-sm-0" src="{{ asset('site/images/hospitals.jpg') }}" alt="">
                   </div>
                   {{-- <div class="progress-item mt-0">
                     <div class="progress mb-0">
@@ -645,7 +649,8 @@
               </a>
               <div class="ml-80">
                 <h4 class="icon-box-title mt-15 mb-5"><strong>Group Investments</strong></h4>
-                <p class="text-gray">During investing each member has a right to get the full details of the investment.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
+                <p class="text-gray">During investing each member has a right to get the full details of the investment.
+                    <a class="font-14 pl-10 text-theme-colored" href="{{ route('site.about') }}"> read more...</a></p>
               </div>
             </div>
             <div class="icon-box icon-box-effect mb-20 p-15 bg-light border-bottom-3px">
@@ -654,7 +659,8 @@
               </a>
               <div class="ml-80">
                 <h4 class="icon-box-title mt-15 mb-5"><strong>Dividends</strong></h4>
-                <p class="text-gray">Right to receive profits or dividends according to the company’s performance and his or her shareholdings.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
+                <p class="text-gray">Right to receive profits or dividends according to the company’s performance and his or her
+                    shareholdings.<a class="font-14 pl-10 text-theme-colored" href="{{ route('site.about') }}"> read more...</a></p>
               </div>
             </div>
             <div class="icon-box icon-box-effect p-15 bg-light border-bottom-3px">
@@ -663,7 +669,8 @@
               </a>
               <div class="ml-80">
                 <h4 class="icon-box-title mt-15 mb-5"><strong>Sale Shares</strong></h4>
-                <p class="text-gray">Right to sell his/her shares after the elapse of five years that is to say, starting from March 2028 according to the market value.<a class="font-14 pl-10 text-theme-colored" href="page-about1.html"> read more...</a></p>
+                <p class="text-gray">Right to sell his/her shares after the elapse of five years that is to say, starting from March
+                    2028 according to the market value.<a class="font-14 pl-10 text-theme-colored" href="{{ route('site.about') }}"> read more...</a></p>
               </div>
             </div>
           </div>
